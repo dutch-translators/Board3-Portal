@@ -122,13 +122,13 @@ $lang = array_merge($lang, array(
 	/**
 	* A copy of Handyman` s MOD version check, to view it on the portal overview
 	*/
-	'ANNOUNCEMENT_TOPIC'	=> 'Release Announcement',
-	'CURRENT_VERSION'		=> 'Current Version',
-	'DOWNLOAD_LATEST'		=> 'Download Latest Version',
-	'LATEST_VERSION'		=> 'Latest Version',
-	'NO_INFO'				=> 'Version server could not be contacted',
-	'NOT_UP_TO_DATE'		=> '%s is not up to date',
-	'RELEASE_ANNOUNCEMENT'	=> 'Annoucement Topic',
+	'ANNOUNCEMENT_TOPIC'	=> 'Release aankondiging',
+	'CURRENT_VERSION'		=> 'Huidige versie',
+	'DOWNLOAD_LATEST'		=> 'Download de laatste versie',
+	'LATEST_VERSION'		=> 'Laatste versie',
+	'NO_INFO'				=> 'De server voor de versie controle kan niet worden gecontacteerd',
+	'NOT_UP_TO_DATE'		=> '%s is niet up to date',
+	'RELEASE_ANNOUNCEMENT'	=> 'Aankondigings onderwerp',
 	'UP_TO_DATE'			=> '%s is up to date',
-	'VERSION_CHECK'			=> 'MOD Version Check',
+	'VERSION_CHECK'			=> 'EXT Versie Controle',
 ));
