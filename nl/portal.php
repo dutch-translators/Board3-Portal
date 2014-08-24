@@ -37,5 +37,5 @@ $lang = array_merge($lang, array(
 	'PORTAL'			=> 'Portaal',
 	'VIEWING_PORTAL'                => 'Portaal pagina',
 	'BACK'				=> 'Terug',
-	'B3P_WRONG_METHOD_CALL'		=> 'Incorrect call to method %s',
+	'B3P_WRONG_METHOD_CALL'		=> 'Onjuiste oproep naar methode %s',
 ));
