@@ -32,12 +32,12 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'PORTAL_WELCOME'		=> 'Welcome Message',
+	'PORTAL_WELCOME'		=> 'Welkomsbericht',
 
 	// ACP
-	'ACP_PORTAL_WELCOME_SETTINGS'			=> 'Welcome Message Settings',
-	'ACP_PORTAL_WELCOME_MESSAGE_SHORT'		=> 'The message you entered is not long enough.',
-	'ACP_PORTAL_WELCOME_PREVIEW'			=> 'Welcome Message Preview',
-	'ACP_PORTAL_WELCOME_MESSAGE'			=> 'Welcome Message',
-	'ACP_PORTAL_WELCOME_MESSAGE_EXP'		=> 'You can change the welcome message in the textbox. BBCode, Images and URLs are allowed.',
+	'ACP_PORTAL_WELCOME_SETTINGS'			=> 'Welkomsbericht instellingen',
+	'ACP_PORTAL_WELCOME_MESSAGE_SHORT'		=> 'Het bericht wat je hebt ingevoerd is niet lang genoeg.',
+	'ACP_PORTAL_WELCOME_PREVIEW'			=> 'Welkomsbericht voorbeeld',
+	'ACP_PORTAL_WELCOME_MESSAGE'			=> 'Welkomsbericht',
+	'ACP_PORTAL_WELCOME_MESSAGE_EXP'		=> 'Je kan het welkomsbericht veranderen in het tekstvak. BBCode, afbeeldingen en URLs zijn toegestaan.',
 ));
