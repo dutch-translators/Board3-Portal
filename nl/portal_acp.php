@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1
 * @copyright (c) 2014 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -109,15 +110,15 @@ $lang = array_merge($lang, array(
 	'MODULE_COPY_FAILURE'			=> 'Niet instaat om de map: %1$s te kopiëren',
 	'MODULE_CORRUPTED'				=> 'De module die je probeert te uploaden lijkt corrupt te zijn.',
 	'PORTAL_NEW_FILES'				=> 'Nieuwe bestanden',
-	'PORTAL_MODULE_SOURCE'			=> 'Source',
-	'PORTAL_MODULE_TARGET'			=> 'Target',
+	'PORTAL_MODULE_SOURCE'			=> 'Bron',
+	'PORTAL_MODULE_TARGET'			=> 'Doel',
 	'PORTAL_MODULE_STATUS'			=> 'Status',
-	'PORTAL_MODULE_SUCCESS'			=> 'Success',
-	'PORTAL_MODULE_ERROR'			=> 'Error',
+	'PORTAL_MODULE_SUCCESS'			=> 'Succes',
+	'PORTAL_MODULE_ERROR'			=> 'Fout',
 
 	// Install
-	'PORTAL_BASIC_INSTALL'			=> 'Adding basic set of modules',
-	'PORTAL_BASIC_UNINSTALL'		=> 'Removing modules from database',
+	'PORTAL_BASIC_INSTALL'			=> 'Basisset van modules toevoegen',
+	'PORTAL_BASIC_UNINSTALL'		=> 'Modules verwijderen uit de database',
 
 	/**
 	* A copy of Handyman` s MOD version check, to view it on the portal overview
