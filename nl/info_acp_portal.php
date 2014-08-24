@@ -39,13 +39,13 @@ $lang = array_merge($lang, array(
 	'ACP_PORTAL_UPLOAD'		=> 'Upload module',
 
 	// Portal logs
-	'LOG_PORTAL_LINK_ADDED'				=> '<strong>Altered Portal settings</strong><br />&raquo; Link added: %s ',
-	'LOG_PORTAL_LINK_UPDATED'			=> '<strong>Altered Portal settings</strong><br />&raquo; Link updated: %s ',
-	'LOG_PORTAL_LINK_REMOVED'			=> '<strong>Altered Portal settings</strong><br />&raquo; Link removed: %s ',
-	'LOG_PORTAL_EVENT_ADDED'			=> '<strong>Altered Portal settings</strong><br />&raquo; Event added: %s ',
-	'LOG_PORTAL_EVENT_UPDATED'			=> '<strong>Altered Portal settings</strong><br />&raquo; Event updated: %s ',
-	'LOG_PORTAL_EVENT_REMOVED'			=> '<strong>Altered Portal settings</strong><br />&raquo; Event removed: %s ',
-	'LOG_PORTAL_CONFIG'					=> '<strong>Altered Portal settings</strong><br />&raquo; %s',
+	'LOG_PORTAL_LINK_ADDED'				=> '<strong>Portaal instellingen veranderd</strong><br />&raquo; Link toegevoegd: %s ',
+	'LOG_PORTAL_LINK_UPDATED'			=> '<strong>Portaal instellingen veranderd</strong><br />&raquo; Link gewijzigd: %s ',
+	'LOG_PORTAL_LINK_REMOVED'			=> '<strong>Portaal instellingen veranderd</strong><br />&raquo; Link verwijderd: %s ',
+	'LOG_PORTAL_EVENT_ADDED'			=> '<strong>Portaal instellingen veranderd</strong><br />&raquo; Event toegevoegd: %s ',
+	'LOG_PORTAL_EVENT_UPDATED'			=> '<strong>Portaal instellingen veranderd</strong><br />&raquo; Event gewijzigd: %s ',
+	'LOG_PORTAL_EVENT_REMOVED'			=> '<strong>Portaal instellingen veranderd</strong><br />&raquo; Event verwijderd: %s ',
+	'LOG_PORTAL_CONFIG'					=> '<strong>Portaal instellingen veranderd</strong><br />&raquo; %s',
 
 	// Adding the permissions
 	'ACL_A_MANAGE_PORTAL'		=> 'Kan portaal instellingen wijzigen',
