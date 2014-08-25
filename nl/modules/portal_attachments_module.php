@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Attachments
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -33,22 +34,22 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
 	'DOWNLOADS'				=> 'Downloads',
-	'NO_ATTACHMENTS'		=> 'No attachments',
-	'PORTAL_ATTACHMENTS'	=> 'Attachments',
+	'NO_ATTACHMENTS'		=> 'Geen bijlagen',
+	'PORTAL_ATTACHMENTS'	=> 'Bijlagen',
 
 	// ACP
-	'ACP_PORTAL_ATTACHMENTS_NUMBER_SETTINGS'			=> 'Attachments settings',
-	'ACP_PORTAL_ATTACHMENTS_NUMBER_SETTINGS_EXP'	=> 'This is where you customize the attachments block.',
-	'PORTAL_ATTACHMENTS_NUMBER'							=> 'Limit of displayed attachments',
-	'PORTAL_ATTACHMENTS_NUMBER_EXP'					=> '0 means infinite',
-	'PORTAL_ATTACHMENTS_FORUM_IDS'						=> 'Attachments forums',
-	'PORTAL_ATTACHMENTS_FORUM_IDS_EXP'				=> 'The forum(s) from which the attachments should be displayed. If "Exclude forums" is set to "Yes", select the forums you want to exclude.<br />If "Exclude forums" is set to "No" select the forums you want to see.<br />Select/Deselect multiple forums by holding <samp>CTRL</samp> and clicking.',
-	'PORTAL_ATTACHMENTS_FORUM_EXCLUDE'					=> 'Exclude forums',
-	'PORTAL_ATTACHMENTS_FORUM_EXCLUDE_EXP'			=> 'Select "Yes" if you want to exlude the selected forums from the attachments block, and "No" if you want to see only the attachments of the selected forums in the attachments block.',
-	'PORTAL_ATTACHMENTS_MAX_LENGTH'						=> 'Character limit for each attachments',
-	'PORTAL_ATTACHMENTS_MAX_LENGTH_EXP'				=> '0 means infinite',
-	'PORTAL_ATTACHMENTS_FILETYPE' 						=> 'Filetypes',
-	'PORTAL_ATTACHMENTS_FILETYPE_EXP' 				=> 'If "Exclude filetypes" is set to "Yes", select the filetypes you want to exclude.<br />If "Exclude filetypes" is set to "No" select the filetypes you want to see.<br />Select/Deselect multiple filetypes by holding <samp>CTRL</samp> and clicking.',
-	'PORTAL_ATTACHMENTS_EXCLUDE'						=> 'Exclude filetypes',
-	'PORTAL_ATTACHMENTS_EXCLUDE_EXP'				=> 'Select "Yes" if you want to exlude the selected filetypes from the attachments block, and "No" if you want to see only the selected filetypes in the attachments block.',
+	'ACP_PORTAL_ATTACHMENTS_NUMBER_SETTINGS'			=> 'Bijlageninstellingen',
+	'ACP_PORTAL_ATTACHMENTS_NUMBER_SETTINGS_EXP'	=> 'Hier kan je het bijlagen blok aanpassen.',
+	'PORTAL_ATTACHMENTS_NUMBER'							=> 'Limiet van getoonde bijlagen',
+	'PORTAL_ATTACHMENTS_NUMBER_EXP'					=> '0 betekend onbeperkt',
+	'PORTAL_ATTACHMENTS_FORUM_IDS'						=> 'Bijlagen forums',
+	'PORTAL_ATTACHMENTS_FORUM_IDS_EXP'				=> 'De forumonderdelen waarvan de bijlagen moeten worden weergegeven. Als "Forumonderdelen uitsluiten" is ingesteld op "Ja", selecteer dan de forumonderdelen die je wilt uitsluiten.<br />Als "Forumonderdelen uitsluiten" is ingesteld op "Nee" selecteer dan de forumonderdelen die je wilt weergeven.<br />Selecteer/Deselecteer meerdere forums doormiddel van <samp>CTRL</samp> en door te klikken.',
+	'PORTAL_ATTACHMENTS_FORUM_EXCLUDE'					=> 'Forumonderdelen uitsluiten',
+	'PORTAL_ATTACHMENTS_FORUM_EXCLUDE_EXP'			=> 'Selecteer "Ja" als je de geselecteerde forumondedelen wilt uitsluiten uit het bijlagenblok, en "Nee" als je alleen de bijlages van de geselecteerde forumonderdelen wilt zien in het bijlagenblok.',
+	'PORTAL_ATTACHMENTS_MAX_LENGTH'						=> 'Limiet voor het aantal tekens voor bijlagen',
+	'PORTAL_ATTACHMENTS_MAX_LENGTH_EXP'				=> '0 betekend onbeperkt',
+	'PORTAL_ATTACHMENTS_FILETYPE' 						=> 'Bestandstypen',
+	'PORTAL_ATTACHMENTS_FILETYPE_EXP' 				=> 'Als "Bestandstypen uitsluiten" is ingesteld op "Ja", selecteer dan de bestandstypen die je wilt uitsluiten.<br />Als "Bestandstypen uitsluiten" is ingesteld op "Nee" selecteer dan de bestandstypen die je wilt weergeven.<br />Selecteer/Deselecteer meerdere bestandstypen doormiddel van <samp>CTRL</samp> en door te klikken.',
+	'PORTAL_ATTACHMENTS_EXCLUDE'						=> 'Bestandstypen uitsluiten',
+	'PORTAL_ATTACHMENTS_EXCLUDE_EXP'				=> 'Selecteer "Ja" als je de geselecteerde bestandstypen wilt uitsluiten uit het bijlagenblok, en "Nee" ls je alleen de bijlages van de geselecteerde bestandstypen wilt zien in het bijlagenblok.',
 ));
