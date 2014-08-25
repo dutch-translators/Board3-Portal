@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Clock
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,11 +33,11 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'CLOCK'		=> 'Clock',
+	'CLOCK'		=> 'Klok',
 
 	// ACP
-	'ACP_PORTAL_CLOCK_SETTINGS'		=> 'Clock Settings',
-	'ACP_PORTAL_CLOCK_SETTINGS_EXP'	=> 'This is where you customize your clock',
-	'ACP_PORTAL_CLOCK_SRC'			=> 'Clock',
-	'ACP_PORTAL_CLOCK_SRC_EXP'		=> 'Enter the filename of your clock. The clock needs to be located in styles/*yourstyle*/theme/images/portal/.',
+	'ACP_PORTAL_CLOCK_SETTINGS'		=> 'Klok instellingen',
+	'ACP_PORTAL_CLOCK_SETTINGS_EXP'	=> 'Hier kan je het klok blok aanpassen',
+	'ACP_PORTAL_CLOCK_SRC'			=> 'Klok',
+	'ACP_PORTAL_CLOCK_SRC_EXP'		=> 'Vul de bestandsnaam van je klok in. De klok moet in styles/*jouwstijl*/theme/images/portal/ staan.',
 ));
