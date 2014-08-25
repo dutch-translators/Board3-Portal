@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Birthday List
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,13 +33,13 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'BIRTHDAYS_AHEAD'              => 'In the next %s days',
-	'NO_BIRTHDAYS_AHEAD'        => 'No members have a birthday within this period of time.',
+	'BIRTHDAYS_AHEAD'              => 'In de volgende %s dagen',
+	'NO_BIRTHDAYS_AHEAD'        => 'Er zijn geen gebruikers jarig, binnen deze periode.',
 
 	// ACP
-	'ACP_PORTAL_BIRTHDAYS_SETTINGS'			=> 'Birthdays Settings',
-	'ACP_PORTAL_BIRTHDAYS_SETTINGS_EXP'	=> 'This is where you customize the birthday block.',
-	'PORTAL_BIRTHDAYS'						=> 'Birthday block',
-	'PORTAL_BIRTHDAYS_AHEAD'				=> 'Birthdays ahead days',
-	'PORTAL_BIRTHDAYS_AHEAD_EXP'		=> 'How many days to look ahead for future birthdays.<br />"0" will disable the ahead birthdays list.',
+	'ACP_PORTAL_BIRTHDAYS_SETTINGS'			=> 'Verjaardagsinstellingen',
+	'ACP_PORTAL_BIRTHDAYS_SETTINGS_EXP'	=> 'Hier kan je het verjaardagsblok aanpassen.',
+	'PORTAL_BIRTHDAYS'						=> 'Verjaardagsblok',
+	'PORTAL_BIRTHDAYS_AHEAD'				=> 'Aankomende verjaardagen',
+	'PORTAL_BIRTHDAYS_AHEAD_EXP'		=> 'Hoeveel dagen moet er vooruit gekeken worden voor aankomende verjaardagen.<br />"0" zal de aankomende lijst met verjaardagen uitschakelen.',
 ));
