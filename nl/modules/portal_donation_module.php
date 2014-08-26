@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Donation
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,34 +33,34 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'DONATION' 		=> 'PayPal donations',
-	'DONATION_TEXT'	=> 'is a group supplying services with no intention of any monetary profit. Your donations are welcome so that the cost of our server, domain name, etc. can be covered.',
-	'PAY_MSG'       => 'Please use a decimal point (not a comma) as the separator, e.g. 3.50',
-	'PAY_ITEM'		=> 'Donate!', // paypal item
+	'DONATION' 		=> 'PayPal donaties',
+	'DONATION_TEXT'	=> 'is een groep die is gericht op het leveren van diensten en heeft geen enkele intentie om er zelf financieel beter van te worden. Je donatie is van harte welkom, zodat de kosten van onze server, domeinnaam, etc. kunnen worden gedekt.',
+	'PAY_MSG'       => 'Gebruik een decimale punt (geen comma) als scheidingsteken, bijv: 3.50',
+	'PAY_ITEM'		=> 'Doneer!', // paypal item
 
-	'AUD'						=> 'Australian Dollars (AUD)',
-	'CAD'						=> 'Canadian Dollars (CAD)',
-	'CZK'						=> 'Czech Koruna (CZK)',
-	'DKK'						=> 'Danish Kroner (DKK)',
+	'AUD'						=> 'Australische Dollars (AUD)',
+	'CAD'						=> 'Canadese Dollars (CAD)',
+	'CZK'						=> 'Tsjechische Kroon (CZK)',
+	'DKK'						=> 'Deense Kronen (DKK)',
 	'HKD'						=> 'Hong Kong Dollars (HKD)',
-	'HUF'						=> 'Hungarian Forint (HUF)',
-	'NZD'						=> 'New Zealand Dollars (NZD)',
-	'NOK'						=> 'Norwegian Kroner (NOK)',
-	'PLN'						=> 'Polish Zlotych (PLN)',
-	'GBP'						=> 'British Pounds (GBP)',
-	'SGD'						=> 'Singapore Dollars (SGD)',
-	'SEK'						=> 'Swedish Kronor (SEK)',
-	'CHF'						=> 'Swiss Francs (CHF)',
-	'JPY'						=> 'Japanese Yen (JPY)',
+	'HUF'						=> 'Hongaarse Forint (HUF)',
+	'NZD'						=> 'Nieuw-Zeelandse Dollars (NZD)',
+	'NOK'						=> 'Noorse Kronen (NOK)',
+	'PLN'						=> 'Poolse Zloty (PLN)',
+	'GBP'						=> 'Britse Ponden (GBP)',
+	'SGD'						=> 'Singaporese Dollars (SGD)',
+	'SEK'						=> 'Zweedse Kronen (SEK)',
+	'CHF'						=> 'Zwitserse Franken (CHF)',
+	'JPY'						=> 'Japanse Yen (JPY)',
 	'USD'						=> 'U.S. Dollars (USD)',
 	'EUR'						=> 'Euros (EUR)',
-	'MXN'						=> 'Mexican Pesos (MXN)',
-	'ILS'						=> 'Israeli New Shekels (ILS)',
+	'MXN'						=> 'Mexicaanse Peso (MXN)',
+	'ILS'						=> 'Israëlische Shekel (ILS)',
 
 	// ACP
-	'ACP_PORTAL_PAYPAL_SETTINGS'			=> 'Paypal settings',
-	'ACP_PORTAL_PAYPAL_SETTINGS_EXP'		=> 'This is where you customize the Paypal block.',
-	'PORTAL_PAY_ACC'						=> 'Paypal account to use',
-	'PORTAL_PAY_ACC_EXP'					=> 'Enter your Paypal e-mail address eg. xxx@xxx.com',
-	'PORTAL_PAY_CUSTOM'				=> 'Append username to Paypal donation',
+	'ACP_PORTAL_PAYPAL_SETTINGS'			=> 'PayPal instellingen',
+	'ACP_PORTAL_PAYPAL_SETTINGS_EXP'		=> 'Hier kan je het PayPal blok aanpassen.',
+	'PORTAL_PAY_ACC'						=> 'PayPal account om te gebruiken',
+	'PORTAL_PAY_ACC_EXP'					=> 'Vul je Paypal e-mailadres in bijv: xxx@xxx.com',
+	'PORTAL_PAY_CUSTOM'				=> 'Voeg gebruikersnaam toe bij een PayPal donatie',
 ));
