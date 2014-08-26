@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Custom
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,17 +33,17 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'PORTAL_CUSTOM'		=> 'Custom Block',
+	'PORTAL_CUSTOM'		=> 'Aangepast blok',
 
 	// ACP
-	'ACP_PORTAL_CUSTOM_SETTINGS'			=> 'Custom Block Settings',
-	'ACP_PORTAL_CUSTOM_SETTINGS_EXP'		=> 'Here you can edit your custom block',
-	'ACP_PORTAL_CUSTOM_CODE_SHORT'			=> 'The code you entered is not long enough.',
-	'ACP_PORTAL_CUSTOM_PREVIEW'				=> 'Preview',
-	'ACP_PORTAL_CUSTOM_CODE'				=> 'Custom Block Code',
-	'ACP_PORTAL_CUSTOM_CODE_EXP'			=> 'Change the code for the small custom block (HTML or BBCode) here.',
-	'ACP_PORTAL_CUSTOM_PERMISSION'			=> 'Custom Block permissions',
-	'ACP_PORTAL_CUSTOM_PERMISSION_EXP'		=> 'Select the groups that should be able to view the custom block. If you want all users to be able to view the custom block, don’t select anything.<br />Select/Deselect multiple groups by holding <samp>CTRL</samp> and clicking.',
-	'ACP_PORTAL_CUSTOM_BBCODE'				=> 'Activate BBCode for the custom block',
-	'ACP_PORTAL_CUSTOM_BBCODE_EXP'			=> 'BBCode could be used in this box. If BBCode is not activated, HTML will be parsed.',
+	'ACP_PORTAL_CUSTOM_SETTINGS'			=> 'Aangepast blok Instelingen',
+	'ACP_PORTAL_CUSTOM_SETTINGS_EXP'		=> 'Hier kan je het aangepaste blok aanpassen',
+	'ACP_PORTAL_CUSTOM_CODE_SHORT'			=> 'De code die je hebt ingevoerd is niet lang genoeg.',
+	'ACP_PORTAL_CUSTOM_PREVIEW'				=> 'Voorbeeld',
+	'ACP_PORTAL_CUSTOM_CODE'				=> 'Code aangepast blok',
+	'ACP_PORTAL_CUSTOM_CODE_EXP'			=> 'Verander de code voor het smalle aangepaste blok (HTML of BBCode) hier.',
+	'ACP_PORTAL_CUSTOM_PERMISSION'			=> 'Aangepast blok permissies',
+	'ACP_PORTAL_CUSTOM_PERMISSION_EXP'		=> 'Selecteer de groepen die het aangepaste blok mogen zien. Als je wilt dat alle gebruikers dit aangepaste blok mogen zien, selecteer dan niks.<br />Selecteer/Deselecteer meerdere groepen doormiddel van <samp>CTRL</samp> en door te klikken.',
+	'ACP_PORTAL_CUSTOM_BBCODE'				=> 'Activeer BBCode voor het aangepaste blok',
+	'ACP_PORTAL_CUSTOM_BBCODE_EXP'			=> 'Je kan BBcodes gebruiken in dit vak. Als BBCodes niet geactiveerd zijn , HTML will be parsed.',
 ));
