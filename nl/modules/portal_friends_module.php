@@ -43,6 +43,6 @@ $lang = array_merge($lang, array(
 	// ACP
 	'ACP_PORTAL_FRIENDS_SETTINGS'			=> 'Vrienden instellingen',
 	'ACP_PORTAL_FRIENDS_SETTINGS_EXP'	=> 'Hier kan je het vrienden blok aanpassen.',
-	'PORTAL_MAX_ONLINE_FRIENDS'				=> 'Limiet getoonde vrienden',
+	'PORTAL_MAX_ONLINE_FRIENDS'				=> 'Aantal getoonde vrienden',
 	'PORTAL_MAX_ONLINE_FRIENDS_EXP'		=> 'Het maximum aantal vrienden dat wordt weergegeven.',
 ));
