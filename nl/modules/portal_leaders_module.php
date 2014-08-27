@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Leaders
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,14 +33,14 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'NO_ADMINISTRATORS_P'	=> 'No Administrators',
-	'NO_MODERATORS_P'		=> 'No Moderators',
-	'NO_GROUPS_P'			=> 'No Groups',
-	'ACP_PORTAL_LEADERS'	=> 'The Team',
+	'NO_ADMINISTRATORS_P'	=> 'Geen Beheerders',
+	'NO_MODERATORS_P'		=> 'Geen Moderators',
+	'NO_GROUPS_P'			=> 'Geen groepen',
+	'ACP_PORTAL_LEADERS'	=> 'Het Team',
 
 	// ACP
-	'ACP_PORTAL_LEADERS'		=> 'Team Settings',
-	'ACP_PORTAL_LEADERS_EXP'	=> 'This is where you customize the team block',
-	'PORTAL_LEADERS_EXT'		=> 'Extended Leaders / Team',
-	'PORTAL_LEADERS_EXT_EXP'	=> 'The standard block lists all admins/mods, while the extended block includes all non-hidden groups with a legend.',
+	'ACP_PORTAL_LEADERS'		=> 'Team Instellingen',
+	'ACP_PORTAL_LEADERS_EXP'	=> 'Hier kan je het team blok aanpassen',
+	'PORTAL_LEADERS_EXT'		=> 'Uitgebreide leiders/teams',
+	'PORTAL_LEADERS_EXT_EXP'	=> 'Het standaard blok weergeeft alle beheerders/moderators, het uitgebreide blok weergeeft alle niet-verborgen groepen met legenda.',
 ));
