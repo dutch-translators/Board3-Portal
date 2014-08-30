@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Latest Bots
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,12 +33,12 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'LATEST_BOTS'			=> 'Latest Bots',
-	'LAST_VISITED_BOTS'		=> 'Last visited bots',
+	'LATEST_BOTS'			=> 'Nieuwste Bots',
+	'LAST_VISITED_BOTS'		=> 'Laatste bezoekende bots',
 
 	// ACP
-	'ACP_PORTAL_BOTS_SETTINGS'					=> 'Visiting bots settings',
-	'ACP_PORTAL_BOTS_SETTINGS_EXP'			=> 'This is where you customize the visiting bots block.',
-	'PORTAL_LAST_VISITED_BOTS_NUMBER'			=> 'How many bots to display',
-	'PORTAL_LAST_VISITED_BOTS_NUMBER_EXP'	=> '0 means infinite',
+	'ACP_PORTAL_BOTS_SETTINGS'				=> 'Bezoekende bots instellingen',
+	'ACP_PORTAL_BOTS_SETTINGS_EXP'			=> 'Hier kan je de bezoekende  bots blok aanpassen.',
+	'PORTAL_LAST_VISITED_BOTS_NUMBER'		=> 'Hoeveel bot weergeven',
+	'PORTAL_LAST_VISITED_BOTS_NUMBER_EXP'	=> '0 betekent oneindig',
 ));

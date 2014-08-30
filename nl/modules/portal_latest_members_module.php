@@ -36,8 +36,8 @@ $lang = array_merge($lang, array(
 	'LATEST_MEMBERS'	=> 'Nieuwste gebruikers',
 
 	// ACP
-	'ACP_PORTAL_MEMBERS_SETTINGS'			=> 'Nieuwste gebruikers instellingen',
+	'ACP_PORTAL_MEMBERS_SETTINGS'		=> 'Nieuwste gebruikers instellingen',
 	'ACP_PORTAL_MEMBERS_SETTINGS_EXP'	=> 'Hier kan je het nieuwste gebruikers blok aanpassen.',
-	'PORTAL_MAX_LAST_MEMBER'				=> 'Aantal getoonde nieuwe gebruikers',
+	'PORTAL_MAX_LAST_MEMBER'			=> 'Aantal getoonde nieuwe gebruikers',
 	'PORTAL_MAX_LAST_MEMBER_EXP'		=> 'Het maximum aantal nieuwe gebruikers dat wordt weergegeven, 0 is onbeperkt',
 ));
