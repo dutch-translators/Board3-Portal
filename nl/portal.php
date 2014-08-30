@@ -35,8 +35,8 @@ if (empty($lang) || !is_array($lang))
 
 // Common
 $lang = array_merge($lang, array(
-	'PORTAL'			=> 'Portaal',
-	'VIEWING_PORTAL'                => 'Portaal pagina',
-	'BACK'				=> 'Terug',
+	'PORTAL'					=> 'Portaal',
+	'VIEWING_PORTAL'			=> 'Portaalpagina',
+	'BACK'						=> 'Terug',
 	'B3P_WRONG_METHOD_CALL'		=> 'Onjuiste oproep naar methode %s',
 ));
