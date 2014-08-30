@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Links
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -33,24 +34,24 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
 	'PORTAL_LINKS'		=> 'Links',
-	'LINKS_NO_LINKS'	=> 'No links',
+	'LINKS_NO_LINKS'	=> 'Geen links',
 
 	// ACP
-	'ACP_PORTAL_LINKS'				=> 'Link Settings',
-	'ACP_PORTAL_LINKS_EXP'			=> 'Customize the links listed in the links block',
-	'ACP_PORTAL_LINK_TITLE'			=> 'Title',
-	'ACP_PORTAL_LINK_TYPE'			=> 'Link type',
-	'ACP_PORTAL_LINK_TYPE_EXP'		=> 'If you have a link to a page of your board, choose "Internal link" in order to prevent unwanted logouts.',
-	'ACP_PORTAL_LINK_INT'			=> 'Internal link',
-	'ACP_PORTAL_LINK_EXT'			=> 'External link',
-	'ACP_PORTAL_LINK_ADD'			=> 'Add new navigation link',
-	'ACP_PORTAL_LINK_URL'			=> 'Link URL',
-	'ACP_PORTAL_LINK_URL_EXP'		=> 'External links:<br />All links should be entered with a http://<br /><br />Internal links:<br />Only enter the php file as link url, i.e. index.php?style=4.',
-	'ACP_PORTAL_LINK_PERMISSION'	=> 'Link permissions',
-	'ACP_PORTAL_LINK_PERMISSION_EXP'=> 'Select the groups that should be authorized to view the link. If you want all users to be able to view the link, don’t select anything.<br />Select/Deselect multiple groups by holding <samp>CTRL</samp> and clicking.',
-	'ACP_PORTAL_LINKS_NEW_WINDOW'	=> 'Open external links in a new window',
+	'ACP_PORTAL_LINKS'				=> 'Link instellingen',
+	'ACP_PORTAL_LINKS_EXP'			=> 'Pas de links aan die in de linksblok staan aan',
+	'ACP_PORTAL_LINK_TITLE'			=> 'Titel',
+	'ACP_PORTAL_LINK_TYPE'			=> 'Linktype',
+	'ACP_PORTAL_LINK_TYPE_EXP'		=> 'Als je een link naar een pagina van je forum hebt, kies dan "Interne link" om ongewenste afmeldingen te voorkomen.',
+	'ACP_PORTAL_LINK_INT'			=> 'Interne link',
+	'ACP_PORTAL_LINK_EXT'			=> 'Externe link',
+	'ACP_PORTAL_LINK_ADD'			=> 'Nieuwe navigatielink toevoegen',
+	'ACP_PORTAL_LINK_URL'			=> 'Link-URL',
+	'ACP_PORTAL_LINK_URL_EXP'		=> 'Externe links:<br />Alle links moeten ingevoerd worden met een http://<br /><br />Interne links:<br />Vul alleen het php bestand in als link-url, bijv. index.php?style=4.',
+	'ACP_PORTAL_LINK_PERMISSION'	=> 'Linkpermissies',
+	'ACP_PORTAL_LINK_PERMISSION_EXP'=> 'Selecteer de groepen die de link kunnen zien. Als je wilt dat alle gebruikers de link kunnen zien, selecteer dan niks.<br />Selecteer/Deselecteer meerdere groepen door middel van <samp>CTRL</samp> en klikken.',
+	'ACP_PORTAL_LINKS_NEW_WINDOW'	=> 'Open externe links in een nieuw scherm',
 
 	// Errors
-	'NO_LINK_TITLE'					=> 'You must enter a title for this link.',
-	'NO_LINK_URL'					=> 'You must enter a link URL.',
+	'NO_LINK_TITLE'					=> 'Je moet een titel invoeren voor deze link.',
+	'NO_LINK_URL'					=> 'Je moet een link-URL invoeren.',
 ));
