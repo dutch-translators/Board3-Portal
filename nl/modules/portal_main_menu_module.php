@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Main Menu
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -33,29 +34,29 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
 	'M_MENU' 	=> 'Menu',
-	'M_CONTENT'	=> 'Content',
+	'M_CONTENT'	=> 'Inhoud',
 	'M_ACP'		=> 'ACP',
 	'M_HELP'	=> 'Help',
 	'M_BBCODE'	=> 'BBCode FAQ',
-	'M_TERMS'	=> 'Terms of use',
-	'M_PRV'		=> 'Privacy policy',
-	'M_SEARCH'	=> 'Search',
-	'MENU_NO_LINKS'	=> 'No links',
+	'M_TERMS'	=> 'Gebruikersvoorwaarden',
+	'M_PRV'		=> 'Privacybeleid',
+	'M_SEARCH'	=> 'Zoek',
+	'MENU_NO_LINKS'	=> 'Geen links',
 
 	// ACP
-	'ACP_PORTAL_MENU'				=> 'Menu settings',
-	'ACP_PORTAL_MENU_LINK_SETTINGS'	=> 'Link Settings',
-	'ACP_PORTAL_MENU_EXP'			=> 'Manage your main menu',
-	'ACP_PORTAL_MENU_MANAGE'		=> 'Manage menu',
-	'ACP_PORTAL_MENU_MANAGE_EXP'	=> 'You can manage the links of your main menu here.',
-	'ACP_PORTAL_MENU_CAT'			=> 'Category',
-	'ACP_PORTAL_MENU_IS_CAT'		=> 'Set as special link category',
-	'ACP_PORTAL_MENU_INT'			=> 'Internal link',
-	'ACP_PORTAL_MENU_EXT'			=> 'External link',
-	'ACP_PORTAL_MENU_TITLE'			=> 'Title',
-	'ACP_PORTAL_MENU_URL'			=> 'Link URL',
-	'ACP_PORTAL_MENU_ADD'			=> 'Add new navigation link',
-	'ACP_PORTAL_MENU_TYPE'			=> 'Link type',
+	'ACP_PORTAL_MENU'				=> 'Menu instellingen',
+	'ACP_PORTAL_MENU_LINK_SETTINGS'	=> 'Link instellingen',
+	'ACP_PORTAL_MENU_EXP'			=> 'Beheer je hoofdmenu',
+	'ACP_PORTAL_MENU_MANAGE'		=> 'Beheer menu',
+	'ACP_PORTAL_MENU_MANAGE_EXP'	=> 'Hier kan je de links van je hoofdmenu beheren.',
+	'ACP_PORTAL_MENU_CAT'			=> 'Categorie',
+	'ACP_PORTAL_MENU_IS_CAT'		=> 'Stel in als speciale linkcategorie',
+	'ACP_PORTAL_MENU_INT'			=> 'Interne link',
+	'ACP_PORTAL_MENU_EXT'			=> 'Externe link',
+	'ACP_PORTAL_MENU_TITLE'			=> 'Titel',
+	'ACP_PORTAL_MENU_URL'			=> 'Link-URL',
+	'ACP_PORTAL_MENU_ADD'			=> 'Nieuwe navigatielink toevoegen',
+	'ACP_PORTAL_MENU_TYPE'			=> 'Linktype',
 	'ACP_PORTAL_MENU_TYPE_EXP'		=> 'If you have a link to a page of your board, choose "Internal link" in order to prevent unwanted logouts.',
 	'ACP_PORTAL_MENU_CREATE_CAT'	=> 'You need to create a category first.',
 	'ACP_PORTAL_MENU_URL_EXP'		=> 'External links:<br />All links should be entered with a http://<br /><br />Internal links:<br />Only enter the php file as link url, i.e. index.php?style=4.',
