@@ -36,8 +36,8 @@ $lang = array_merge($lang, array(
 	'CLOCK'		=> 'Klok',
 
 	// ACP
-	'ACP_PORTAL_CLOCK_SETTINGS'		=> 'Klok instellingen',
-	'ACP_PORTAL_CLOCK_SETTINGS_EXP'	=> 'Hier kan je het klok blok aanpassen',
+	'ACP_PORTAL_CLOCK_SETTINGS'		=> 'Klokinstellingen',
+	'ACP_PORTAL_CLOCK_SETTINGS_EXP'	=> 'Hier kan je het klokblok aanpassen',
 	'ACP_PORTAL_CLOCK_SRC'			=> 'Klok',
 	'ACP_PORTAL_CLOCK_SRC_EXP'		=> 'Vul de bestandsnaam van je klok in. De klok moet in styles/*jouwstijl*/theme/images/portal/ staan.',
 ));

@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'DONATION' 		=> 'PayPal donaties',
 	'DONATION_TEXT'	=> 'is een groep die is gericht op het leveren van diensten en heeft geen enkele intentie om er zelf financieel beter van te worden. Je donatie is van harte welkom, zodat de kosten van onze server, domeinnaam, etc. kunnen worden gedekt.',
-	'PAY_MSG'       => 'Gebruik een decimale punt (geen comma) als scheidingsteken, bijv: 3.50',
+	'PAY_MSG'       => 'Gebruik een decimale punt (geen komma) als scheidingsteken, bijv: 3.50',
 	'PAY_ITEM'		=> 'Doneer!', // paypal item
 
 	'AUD'						=> 'Australische Dollars (AUD)',
@@ -62,5 +62,5 @@ $lang = array_merge($lang, array(
 	'ACP_PORTAL_PAYPAL_SETTINGS_EXP'		=> 'Hier kan je het PayPal blok aanpassen.',
 	'PORTAL_PAY_ACC'						=> 'PayPal account om te gebruiken',
 	'PORTAL_PAY_ACC_EXP'					=> 'Vul je Paypal e-mailadres in bijv: xxx@xxx.com',
-	'PORTAL_PAY_CUSTOM'				=> 'Voeg gebruikersnaam toe bij een PayPal donatie',
+	'PORTAL_PAY_CUSTOM'						=> 'Voeg gebruikersnaam toe bij een PayPal donatie',
 ));

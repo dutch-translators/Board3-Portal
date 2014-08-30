@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_PORTAL_CUSTOM_CODE'				=> 'Code aangepast blok',
 	'ACP_PORTAL_CUSTOM_CODE_EXP'			=> 'Verander de code voor het smalle aangepaste blok (HTML of BBCode) hier.',
 	'ACP_PORTAL_CUSTOM_PERMISSION'			=> 'Aangepast blok permissies',
-	'ACP_PORTAL_CUSTOM_PERMISSION_EXP'		=> 'Selecteer de groepen die het aangepaste blok mogen zien. Als je wilt dat alle gebruikers dit aangepaste blok mogen zien, selecteer dan niks.<br />Selecteer/Deselecteer meerdere groepen doormiddel van <samp>CTRL</samp> en door te klikken.',
+	'ACP_PORTAL_CUSTOM_PERMISSION_EXP'		=> 'Selecteer de groepen die het aangepaste blok mogen zien. Als je wilt dat alle gebruikers dit aangepaste blok mogen zien, selecteer dan niks.<br />Selecteer/Deselecteer meerdere groepen door middel van <samp>CTRL</samp> en door te klikken.',
 	'ACP_PORTAL_CUSTOM_BBCODE'				=> 'Activeer BBCode voor het aangepaste blok',
-	'ACP_PORTAL_CUSTOM_BBCODE_EXP'			=> 'Je kan BBcodes gebruiken in dit vak. Als BBCodes niet geactiveerd zijn , HTML will be parsed.',
+	'ACP_PORTAL_CUSTOM_BBCODE_EXP'			=> 'Je kan BBcodes gebruiken in dit vak. Als BBCodes niet geactiveerd zijn, zal HTML verwerkt worden.',
 ));

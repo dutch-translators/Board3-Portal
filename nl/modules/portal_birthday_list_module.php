@@ -33,13 +33,13 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'BIRTHDAYS_AHEAD'              => 'In de volgende %s dagen',
-	'NO_BIRTHDAYS_AHEAD'        => 'Er zijn geen gebruikers jarig, binnen deze periode.',
+	'BIRTHDAYS_AHEAD'			=> 'In de volgende %s dagen',
+	'NO_BIRTHDAYS_AHEAD'		=> 'Er zijn geen gebruikers jarig, binnen deze periode.',
 
 	// ACP
-	'ACP_PORTAL_BIRTHDAYS_SETTINGS'			=> 'Verjaardagsinstellingen',
+	'ACP_PORTAL_BIRTHDAYS_SETTINGS'		=> 'Verjaardagsinstellingen',
 	'ACP_PORTAL_BIRTHDAYS_SETTINGS_EXP'	=> 'Hier kan je het verjaardagsblok aanpassen.',
-	'PORTAL_BIRTHDAYS'						=> 'Verjaardagsblok',
-	'PORTAL_BIRTHDAYS_AHEAD'				=> 'Aankomende verjaardagen',
+	'PORTAL_BIRTHDAYS'					=> 'Verjaardagsblok',
+	'PORTAL_BIRTHDAYS_AHEAD'			=> 'Aankomende verjaardagen',
 	'PORTAL_BIRTHDAYS_AHEAD_EXP'		=> 'Hoeveel dagen moet er vooruit gekeken worden voor aankomende verjaardagen.<br />"0" zal de aankomende lijst met verjaardagen uitschakelen.',
 ));
