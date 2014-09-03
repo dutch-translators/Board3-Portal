@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - News
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,39 +33,39 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'LATEST_NEWS'			=> 'Latest news',
-	'READ_FULL'				=> 'Read all',
-	'NO_NEWS'				=> 'No news',
-	'POSTED_BY'				=> 'Poster',
-	'COMMENTS'				=> 'Comments',
-	'VIEW_COMMENTS'			=> 'View comments',
-	'PORTAL_POST_REPLY'		=> 'Write comments',
-	'TOPIC_VIEWS'			=> 'Views',
+	'LATEST_NEWS'			=> 'Laatste Nieuws',
+	'READ_FULL'				=> 'Lees alles',
+	'NO_NEWS'				=> 'Geen nieuws',
+	'POSTED_BY'				=> 'Geplaatst door',
+	'COMMENTS'				=> 'Reacties',
+	'VIEW_COMMENTS'			=> 'Laat reacties zien',
+	'PORTAL_POST_REPLY'		=> 'Schrijf een reactie',
+	'TOPIC_VIEWS'			=> 'Weergaves',
 	'JUMP_NEWEST'			=> 'Jump to newest post',
 	'JUMP_FIRST'			=> 'Jump to first post',
 	'JUMP_TO_POST'			=> 'Jump to post',
 
 	// ACP
-	'ACP_PORTAL_NEWS_SETTINGS'			=> 'News settings',
-	'ACP_PORTAL_NEWS_SETTINGS_EXP'	=> 'This is where you customize the news block.',
-	'PORTAL_NEWS_STYLE'					=> 'Compact news block style',
-	'PORTAL_NEWS_STYLE_EXP'			=> '"Yes" means use the compact style for news. "No" means use the large style (text view).',
+	'ACP_PORTAL_NEWS_SETTINGS'			=> 'Nieuws instellingen',
+	'ACP_PORTAL_NEWS_SETTINGS_EXP'	=> 'Hier kan je het nieuwsblok aanpassen.',
+	'PORTAL_NEWS_STYLE'					=> 'Compacte nieuwsblok stijl',
+	'PORTAL_NEWS_STYLE_EXP'			=> '"Ja" betekend dat je gebruik wilt maken van de compate stijl. "Nee" betekend dat je gebruik wilt maken van de grote stijl (tekstweergave).',
 	'PORTAL_SHOW_ALL_NEWS'				=> 'Show all of the articles in this forum',
-	'PORTAL_SHOW_ALL_NEWS_EXP'		=> 'Includes stickies.',
-	'PORTAL_NUMBER_OF_NEWS'				=> 'Number of news articles on the portal',
-	'PORTAL_NUMBER_OF_NEWS_EXP'		=> '0 means infinite',
-	'PORTAL_NEWS_LENGTH'				=> 'Max length of news article',
-	'PORTAL_NEWS_LENGTH_EXP'		=> '0 means infinite',
-	'PORTAL_NEWS_FORUM' 				=> 'News Forums',
+	'PORTAL_SHOW_ALL_NEWS_EXP'		=> 'inclusief stickies.',
+	'PORTAL_NUMBER_OF_NEWS'				=> 'Het aantal nieuwsberichten weergeven op het portaal',
+	'PORTAL_NUMBER_OF_NEWS_EXP'		=> '0 betekend onbeperkt',
+	'PORTAL_NEWS_LENGTH'				=> 'Maximale lengte nieuwsberichten',
+	'PORTAL_NEWS_LENGTH_EXP'		=> '0 betekend onbeperkt',
+	'PORTAL_NEWS_FORUM' 				=> 'Nieuws forums',
 	'PORTAL_NEWS_FORUM_EXP' 		=> 'Forum(s) we pull the articles from, leave blank to pull from all forums. If "Exclude forums" is set to "Yes", select the forums you want to exclude.<br />If "Exclude forums" is set to "No" select the forums you want to see.<br />Select/Deselect multiple forums by holding <samp>CTRL</samp> and clicking.',
-	'PORTAL_NEWS_EXCLUDE'				=> 'Exclude forums',
-	'PORTAL_NEWS_EXCLUDE_EXP'		=> 'Select "Yes" if you want to exlude the selected forums from the news block, and "No" if you want to see only the selected forums in the news block.',
+	'PORTAL_NEWS_EXCLUDE'				=> 'Forums uitsluiten',
+	'PORTAL_NEWS_EXCLUDE_EXP'		=> 'Selecteer "Ja" als je de geselecteerde forumonderdelen wilt uitsluiuten van het nieuwsblok, selecteer "Nee" als je alleen de geselecteerde forumonderdelen wilt weergeven in het nieuwsblok.',
 	'PORTAL_NEWS_PERMISSIONS'			=> 'Enable/disable permissions',
 	'PORTAL_NEWS_PERMISSIONS_EXP'	=> 'Take forum viewing permissions into account when displaying news',
 	'PORTAL_NEWS_SHOW_LAST'				=> 'Sort in order to the newest posts',
 	'PORTAL_NEWS_SHOW_LAST_EXP'		=> 'When activated, the newest will be sorted in order to the newest posts. When deactivated, the news will be sorted in order to the newest topic.',
-	'PORTAL_NEWS_ARCHIVE'				=> 'Enable the news archive system',
-	'PORTAL_NEWS_ARCHIVE_EXP'		=> 'If enabled the news archive system / page numbers will be displayed.',
-	'PORTAL_SHOW_REPLIES_VIEWS'				=> 'Display the number of replies and views',
-	'PORTAL_SHOW_REPLIES_VIEWS_EXP'		=> 'This setting pertains to the compact block.<br />When Yes, the number of replies and views are shown in 2 extra columns. When No, replies and views will be shown beside the forum name. Select No if you have problems with the display of the extra columns due to the extra width required.',
+	'PORTAL_NEWS_ARCHIVE'				=> 'Het nieuwsarchief systeem inschakelen',
+	'PORTAL_NEWS_ARCHIVE_EXP'		=> 'Als het nieuwsarchief systeem is ingeschakelt, worden er paginanummers weergegeven.',
+	'PORTAL_SHOW_REPLIES_VIEWS'				=> 'Laat het aantal reacties en weergaves zien',
+	'PORTAL_SHOW_REPLIES_VIEWS_EXP'		=> 'Deze instelling betreft het compacte blok.<br />Als "Ja" is ingesteld, wordt het aantal reacties en weergaves weergegeven in 2 extra kolommen. Als "Nee" is ingesteld, worden reacties en weergaves weergegeven naast de forumnaam. Selecteer Nee, als je problemen hebt met de weergave van de extra kolommen doordat er extra breedte nodig is.',
 ));
