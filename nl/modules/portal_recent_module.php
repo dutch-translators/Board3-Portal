@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Recent
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -33,19 +34,19 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
 	'PORTAL_RECENT'				=> 'Recent',
-	'PORTAL_RECENT_TOPIC'		=> 'Recent topics',
-	'PORTAL_RECENT_ANN'			=> 'Recent announcements',
-	'PORTAL_RECENT_HOT_TOPIC'	=> 'Recent popular topics',
+	'PORTAL_RECENT_TOPIC'		=> 'Recente onderwerpen',
+	'PORTAL_RECENT_ANN'			=> 'Recente aankondigingen',
+	'PORTAL_RECENT_HOT_TOPIC'	=> 'Recente populaire onderwerpen',
 
 	// ACP
-	'ACP_PORTAL_RECENT_SETTINGS'			=> 'Recent topics settings',
-	'ACP_PORTAL_RECENT_SETTINGS_EXP'	=> 'This is where you customize the recent topics block.',
-	'PORTAL_MAX_TOPIC'						=> 'Limit of recent announcements/hot topics',
-	'PORTAL_MAX_TOPIC_EXP'				=> '0 means infinite',
-	'PORTAL_RECENT_TITLE_LIMIT'				=> 'Character limit for each recent topic',
-	'PORTAL_RECENT_TITLE_LIMIT_EXP'		=> '0 means infinite',
+	'ACP_PORTAL_RECENT_SETTINGS'			=> 'Recente onderwerpen instellingen',
+	'ACP_PORTAL_RECENT_SETTINGS_EXP'	=> 'Hier kan je het recente onderwerpen blok aanpassen.',
+	'PORTAL_MAX_TOPIC'						=> 'Limiet voor het aantal recente aankondigingen / actieve onderwerpen',
+	'PORTAL_MAX_TOPIC_EXP'				=> '0 betekend onbeperkt',
+	'PORTAL_RECENT_TITLE_LIMIT'				=> 'Limiet aantal tekens voor elk recent onderwerp',
+	'PORTAL_RECENT_TITLE_LIMIT_EXP'		=> '0 betekend onbeperkt',
 	'PORTAL_RECENT_FORUM'					=> 'Recent topics forums',
-	'PORTAL_RECENT_FORUM_EXP'			=> 'Forum(s) we pull the topics from, leave blank to pull from all forums. If "Exclude forums" is set to "Yes", select the forums you want to exclude.<br />If "Exclude forums" is set to "No" select the forums you want to see.<br />Select/Deselect multiple forums by holding <samp>CTRL</samp> and clicking.',
-	'PORTAL_EXCLUDE_FORUM'					=> 'Exclude Forums',
-	'PORTAL_EXCLUDE_FORUM_EXP'			=> 'Select "Yes" if you want to exlude the selected forums from the recent topics block, and "No" if you want to see only the selected forums in the recent topics block.',
+	'PORTAL_RECENT_FORUM_EXP'			=> 'Forumonderdelen om de onderwerpen van weer te geven, laat dit leeg om alle forumonderdelen te gebruiken. Als "Forumonderdelen uitsluiten" is ingesteld op "Ja", selecteer dan de forumonderdelen die je wilt uitsluiten.<br />Als "Forumonderdelen uitsluiten" is ingesteld op "Nee" selecteer dan de forumonderdelen die je wilt weergeven.<br />Selecteer/Deselecteer meerdere forumonderdelen doormiddel van <samp>CTRL</samp> en door te klikken.',
+	'PORTAL_EXCLUDE_FORUM'					=> 'Forumonderdelen uitsluiten',
+	'PORTAL_EXCLUDE_FORUM_EXP'			=> 'Selecteer "Ja" als je de geselecteerde forumonderdelen wilt uitsluiuten van het recente onderwerpen blok, en "Nee" als je alleen de geselecteerde forumonderdelen wilt weergeven in het recente onderwerpen blok.',
 ));
