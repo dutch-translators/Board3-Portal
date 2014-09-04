@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - User Menu
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,14 +33,14 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'USER_MENU'			=> 'User menu',
-	'UM_LOG_ME_IN'		=> 'Remember me',
-	'UM_HIDE_ME'		=> 'Hide me',
-	'UM_REGISTER_NOW'	=> 'Register now!',
-	'UM_MAIN_SUBSCRIBED'=> 'Subscribed',
-	'UM_BOOKMARKS'		=> 'Bookmarks',
+	'USER_MENU'			=> 'Gebruikersmenu',
+	'UM_LOG_ME_IN'		=> 'Ondhoud me',
+	'UM_HIDE_ME'		=> 'Verberg me',
+	'UM_REGISTER_NOW'	=> 'Registreer nu!',
+	'UM_MAIN_SUBSCRIBED'=> 'Abonnementen',
+	'UM_BOOKMARKS'		=> 'Favorieten',
 	'M_MENU' 			=> 'Menu',
 	'M_ACP'				=> 'ACP',
-	'USER_MENU_SETTINGS'	=> 'User menu settings',
-	'USER_MENU_REGISTER'	=> 'Show registration link in user menu',
+	'USER_MENU_SETTINGS'	=> 'Gebruikersmenu instellingen',
+	'USER_MENU_REGISTER'	=> 'Laat registratie link zien in gebruikersmenu',
 ));
