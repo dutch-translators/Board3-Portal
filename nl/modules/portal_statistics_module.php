@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Statistics
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,20 +33,20 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'ST_TOP'		=> 'Totals',
-	'ST_TOP_ANNS'	=> 'Total Announcements:',
-	'ST_TOP_STICKYS'=> 'Total Stickies:',
-	'ST_TOT_ATTACH'	=> 'Total Attachments:',
-	'TOPICS_PER_DAY_OTHER'	=> 'Topics per day: <strong>%d</strong>',
-	'TOPICS_PER_DAY_ZERO'	=> 'Topics per day: <strong>0</strong>',
-	'POSTS_PER_DAY_OTHER'	=> 'Posts per day: <strong>%d</strong>',
-	'POSTS_PER_DAY_ZERO'	=> 'Posts per day: <strong>0</strong>',
-	'USERS_PER_DAY_OTHER'	=> 'Users per day: <strong>%d</strong>',
-	'USERS_PER_DAY_ZERO'	=> 'Users per day: <strong>0</strong>',
-	'TOPICS_PER_USER_OTHER'	=> 'Topics per user: <strong>%d</strong>',
-	'TOPICS_PER_USER_ZERO'	=> 'Topics per user: <strong>0</strong>',
-	'POSTS_PER_USER_OTHER'	=> 'Posts per user: <strong>%d</strong>',
-	'POSTS_PER_USER_ZERO'	=> 'Posts per user: <strong>0</strong>',
-	'POSTS_PER_TOPIC_OTHER'	=> 'Posts per topic: <strong>%d</strong>',
-	'POSTS_PER_TOPIC_ZERO'	=> 'Posts per topic: <strong>0</strong>',
+	'ST_TOP'		=> 'Aantallen',
+	'ST_TOP_ANNS'	=> 'Totaal Aankondigingen:',
+	'ST_TOP_STICKYS'=> 'Totaal Stickies:',
+	'ST_TOT_ATTACH'	=> 'Totaal Bijlagen:',
+	'TOPICS_PER_DAY_OTHER'	=> 'Onderwerpen per dag: <strong>%d</strong>',
+	'TOPICS_PER_DAY_ZERO'	=> 'Onderwerpen per dag: <strong>0</strong>',
+	'POSTS_PER_DAY_OTHER'	=> 'Berichten per dag: <strong>%d</strong>',
+	'POSTS_PER_DAY_ZERO'	=> 'Berichten per dag: <strong>0</strong>',
+	'USERS_PER_DAY_OTHER'	=> 'Gebruikers per dag: <strong>%d</strong>',
+	'USERS_PER_DAY_ZERO'	=> 'Gebruikers per dag: <strong>0</strong>',
+	'TOPICS_PER_USER_OTHER'	=> 'Onderwerpen per gebruiker: <strong>%d</strong>',
+	'TOPICS_PER_USER_ZERO'	=> 'Onderwerpen per gebruiker: <strong>0</strong>',
+	'POSTS_PER_USER_OTHER'	=> 'Berichten per gebruiker: <strong>%d</strong>',
+	'POSTS_PER_USER_ZERO'	=> 'Berichten per gebruiker: <strong>0</strong>',
+	'POSTS_PER_TOPIC_OTHER'	=> 'Berichten per onderwerp: <strong>%d</strong>',
+	'POSTS_PER_TOPIC_ZERO'	=> 'Berichten per onderwerp: <strong>0</strong>',
 ));
