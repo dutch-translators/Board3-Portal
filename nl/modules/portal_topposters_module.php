@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 * @package Board3 Portal v2.1 - Topposters
 * @copyright (c) 2013 Board3 Group ( www.board3.de )
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,10 +33,10 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'TOPPOSTERS'					=> 'Top Posters',
-	'TOPPOSTERS_CONFIG'				=> 'Top Poster settings',
+	'TOPPOSTERS'					=> 'Top berichten plaatsers',
+	'TOPPOSTERS_CONFIG'				=> 'Top berichten plaatsers instellingen',
 
 	// ACP
-	'NUM_TOPPOSTERS'				=> 'Number of Top Posters',
-	'NUM_TOPPOSTERS_EXP'			=> 'Enter how many users should be displayed in the top posters block.',
+	'NUM_TOPPOSTERS'				=> 'Aantal top berichten plaatsers',
+	'NUM_TOPPOSTERS_EXP'			=> 'Geef aan hoeveel gebruikers je wilt weergeven in het top berichten plaatsers blok.',
 ));
