@@ -33,10 +33,10 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, array(
-	'TOPPOSTERS'					=> 'Top berichten plaatsers',
-	'TOPPOSTERS_CONFIG'				=> 'Top berichten plaatsers instellingen',
+	'TOPPOSTERS'					=> 'Top berichtenauteurs',
+	'TOPPOSTERS_CONFIG'				=> 'Top berichtenauteurs instellingen',
 
 	// ACP
-	'NUM_TOPPOSTERS'				=> 'Aantal top berichten plaatsers',
-	'NUM_TOPPOSTERS_EXP'			=> 'Geef aan hoeveel gebruikers je wilt weergeven in het top berichten plaatsers blok.',
+	'NUM_TOPPOSTERS'				=> 'Aantal top berichtenauteurs',
+	'NUM_TOPPOSTERS_EXP'			=> 'Geef aan hoeveel gebruikers je wilt weergeven in het top berichtenauteurs blok.',
 ));
