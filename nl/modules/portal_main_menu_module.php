@@ -57,14 +57,14 @@ $lang = array_merge($lang, array(
 	'ACP_PORTAL_MENU_URL'			=> 'Link-URL',
 	'ACP_PORTAL_MENU_ADD'			=> 'Nieuwe navigatielink toevoegen',
 	'ACP_PORTAL_MENU_TYPE'			=> 'Linktype',
-	'ACP_PORTAL_MENU_TYPE_EXP'		=> 'If you have a link to a page of your board, choose "Internal link" in order to prevent unwanted logouts.',
-	'ACP_PORTAL_MENU_CREATE_CAT'	=> 'You need to create a category first.',
-	'ACP_PORTAL_MENU_URL_EXP'		=> 'External links:<br />All links should be entered with a http://<br /><br />Internal links:<br />Only enter the php file as link url, i.e. index.php?style=4.',
-	'ACP_PORTAL_MENU_PERMISSION'	=> 'Link permissions',
-	'ACP_PORTAL_MENU_PERMISSION_EXP'=> 'Select the groups that should be authorized to view the link. If you want all users to be able to view the link, don’t select anything.<br />Select/Deselect multiple groups by holding <samp>CTRL</samp> and clicking.',
-	'ACP_PORTAL_MENU_EXT_NEW_WINDOW'=> 'Open external links in a new window',
+	'ACP_PORTAL_MENU_TYPE_EXP'		=> 'Als je een link naar een pagina op je forum hebt, selecteer dan "Interne link" om ongewenst afmelden te voorkomen.',
+	'ACP_PORTAL_MENU_CREATE_CAT'	=> 'Je moet eerst een categorie aanmaken.',
+	'ACP_PORTAL_MENU_URL_EXP'		=> 'Externe links:<br />Alle links moeten worden ingevoerd met http://<br /><br />Interne link:<br />Voer alleen het php-bestand in als link, d.w.z. index.php?style=4.',
+	'ACP_PORTAL_MENU_PERMISSION'	=> 'Link permissies',
+	'ACP_PORTAL_MENU_PERMISSION_EXP'=> 'Selecteer de groepen die de link mogen bekijken. Als alle gebruikers de link mogen bekijken, selecteer dan niets.<br />Selecteer/Deselecteer meerdere groepen doormiddel van <samp>CTRL</samp> en door te klikken.',
+	'ACP_PORTAL_MENU_EXT_NEW_WINDOW'=> 'Open externe links in een nieuw venster',
 
 	// Errors
-	'NO_LINK_TITLE'					=> 'You must enter a title for this link.',
-	'NO_LINK_URL'					=> 'You must enter a link URL.',
+	'NO_LINK_TITLE'					=> 'Je moet een titel opgeven voor deze link.',
+	'NO_LINK_URL'					=> 'Je moet een link opgeven.',
 ));
