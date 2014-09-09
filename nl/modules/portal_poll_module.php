@@ -36,7 +36,7 @@ $lang = array_merge($lang, array(
 	'PORTAL_POLL'			=> 'Poll',
 	'LATEST_POLLS'			=> 'Laatste Polls',
 	'NO_OPTIONS'			=> 'Deze poll heeft geen beschikbare opties.',
-	'NO_POLL'				=> 'Geen polls beschrikbaar',
+	'NO_POLL'				=> 'Geen polls beschikbaar',
 	'RETURN_PORTAL'			=> '%sGa terug naar het portaal%s',
 
 	// ACP
