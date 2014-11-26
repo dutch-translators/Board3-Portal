@@ -74,6 +74,7 @@ $lang = array_merge($lang, array(
 	'MODULE_STATUS'				=> 'Module inschakelen',
 	'MODULE_ADD_ONCE'			=> 'Deze module kan maar één keer worden toegevoegd.',
 	'MODULE_IMAGE_ERROR'		=> 'Er is een fout opgetreden tijdens het controleren van de module afbeelding:',
+	'UNKNOWN_MODULE_METHOD'		=> 'De %1$s modules module methode kan niet worden opgelost.',
 
 	// general
 	'ACP_PORTAL_CONFIG_INFO'				=> 'Algemene instellingen',
