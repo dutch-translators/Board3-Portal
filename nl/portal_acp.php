@@ -99,23 +99,6 @@ $lang = array_merge($lang, array(
 	'LINK_ADDED'							=> 'De link is succesvol toegevoegd',
 	'LINK_UPDATED'							=> 'De link is succesvol gewijzigd',
 
-	// Upload Module
-	'MODULE_UPLOAD'					=> 'Een module uploaden',
-	'MODULE_UPLOAD_EXP'				=> 'Kies het ZIP-bestand van de module die je wilt uploaden:',
-	'MODULE_UPLOAD_GO'				=> 'Upload',
-	'NO_MODULE_UPLOAD'				=> 'Je server configuratie staat het uploaden van bestanden niet toe.',
-	'NO_FILE_B3P'					=> 'Geen zip-bestand gespecificeerd.',
-	'MODULE_UPLOADED'				=> 'Module succesvol geüpload.',
-	'MODULE_UPLOAD_MKDIR_FAILURE'	=> 'Niet instaat om een map aan te maken.',
-	'MODULE_COPY_FAILURE'			=> 'Niet instaat om de map: %1$s te kopiëren',
-	'MODULE_CORRUPTED'				=> 'De module die je probeert te uploaden lijkt corrupt te zijn.',
-	'PORTAL_NEW_FILES'				=> 'Nieuwe bestanden',
-	'PORTAL_MODULE_SOURCE'			=> 'Bron',
-	'PORTAL_MODULE_TARGET'			=> 'Doel',
-	'PORTAL_MODULE_STATUS'			=> 'Status',
-	'PORTAL_MODULE_SUCCESS'			=> 'Succes',
-	'PORTAL_MODULE_ERROR'			=> 'Fout',
-
 	// Install
 	'PORTAL_BASIC_INSTALL'			=> 'Basisset van modules toevoegen',
 	'PORTAL_BASIC_UNINSTALL'		=> 'Modules verwijderen uit de database',
